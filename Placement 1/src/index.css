@@ -1,0 +1,116 @@
+/* Background for the whole page */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('/home/johnzavax/Downloads/—Pngtree—cool wave liquid background for_1917195.png'); /* Replace with your image path */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* App container with matte transparent effect */
+.App {
+  background-color: rgba(255, 255, 255, 0.1); /* White background with 80% opacity */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds some shadow */
+  max-width: 600px;
+  width: 100%;
+}
+
+/* Heading styles */
+h1 {
+  color: #333;
+  font-size: 24px;
+  text-align: center;
+}
+
+h2 {
+  color: #444;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+/* Form elements styling */
+form div {
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* Button styling */
+button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* List styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: rgba(255, 255, 255, 0.9); /* Matte transparent effect for list items */
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+li h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+li p {
+  margin: 5px 0;
+  color: #666;
+}
+
+/* New styling for the student name */
+li .student-name {
+  font-weight: bold; /* Makes student name bold */
+  color: #007bff; /* Change color to blue for emphasis */
+}
+
+/* Button for applying to job in list items */
+li button {
+  background-color: #007bff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+}
+
+li button:hover {
+  background-color: #0056b3;
+}
